@@ -263,7 +263,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(204, 204, 204 1);
+  background-color: rgba(204, 204, 204, 1);
 }
 .lcw-box {
   position: absolute;
@@ -673,11 +673,6 @@ input:checked + label > .knob > i:before {
   width: 12px;
   left: 0px;
   transform: rotate(134deg);
-}
-
-.ad-banner {
-    width: 320px;
-    margin: 0 auto;
 }
 
 .ad-banner {
