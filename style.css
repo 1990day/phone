@@ -5,7 +5,7 @@ body {
   color: #EAECEE;
 }
 .file-upload {
-    padding: 15% 3%;
+    padding: 5% 3%;
     margin: 0 auto;
     border-radius: 10px;
     border: solid 1.5px #000000;
@@ -122,11 +122,12 @@ body {
 
 .navbar-light .navbar-brand {
   line-height: 1.68;
-  text-align: left;
+  text-align: center;
   color: #eaecee; 
 }
 
 .navbar-light .navbar-toggler {
+      text-align: center;
     border-color: #000000;
 }
 
@@ -153,6 +154,7 @@ body {
   }
     .navbar-brand {
         font-size: 2rem;
+          text-align: center;
     }
 }
 
@@ -676,6 +678,10 @@ input:checked + label > .knob > i:before {
 }
 
 .ad-banner {
+    width: 320px;
+    margin: 0 auto;
+}
+.coupang_ad {
     width: 320px;
     margin: 0 auto;
 }
