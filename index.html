@@ -13,19 +13,19 @@
     <meta ht-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>오징어게임 닮은꼴 찾기</title>
-    <meta name="description" content="오징어게임 닮은꼴 찾기 테스트">
-    <meta name="title" content="오징어게임 닮은꼴 찾기">
-    <meta name="subject" content="나는 오징어게임 출연자 중 누구와 닮았을까?">
-    <meta name="keywords" content="오징어게임, squid game, mbti테스트, 테스트, 심리테스트, 닮은꼴">
+    <title>지옥 닮은꼴 찾기</title>
+    <meta name="description" content="지옥 닮은꼴 찾기 테스트">
+    <meta name="title" content="지옥 닮은꼴 찾기">
+    <meta name="subject" content="나는 지옥 출연자 중 누구와 닮았을까?">
+    <meta name="keywords" content="지옥, 넷플릭스지옥, hellbound, 지옥닮은꼴, 넷플릭스, 넷플, mbti테스트, 테스트, 심리테스트, 닮은꼴">
 
     <meta name="author" content="1990DAY">
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://squid-game.netlify.app/" />
     <meta property="og:url" content="https://squid-game.netlify.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="오징어게임 닮은꼴 찾기" />
-    <meta property="og:description" content="얼굴로 보는 오징어게임 닮은꼴 테스트"
+    <meta property="og:title" content="지옥 닮은꼴 찾기" />
+    <meta property="og:description" content="얼굴로 보는 지옥 닮은꼴 테스트"
     />
  
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -41,7 +41,7 @@
 
 <body>
     <nav class="p-3 container navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"></a>오징어게임 닮은꼴</nav>
+        <a class="navbar-brand"></a>넷플릭스 지옥</nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,12 +56,12 @@
             </ul>
         </div>
     <section class="section">
-        <h1 class="title">오징어게임 닮은꼴 찾기</h1>
-        <h2 class="subtitle">내가 닮은 참가자는?</h2>
-        <h2 class="sr-only">오징어게임 닮은꼴 찾기</h2>
+        <h1 class="title">지옥 닮은꼴 찾기</h1>
+        <h2 class="subtitle">나는 지옥 출연자 중 누구와 닮았을까?</h2>
+        <h2 class="sr-only">지옥 닮은꼴 찾기</h2>
         <h3 class="sr-only">인공지능으로 파악한 오징어게임 닮은꼴</h3>
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
-        <p class="sr-only">오징어게임 닮은꼴 찾기, 나는 어느 참가자와 닮았을까?</p>
+        <p class="sr-only">지옥 닮은꼴 찾기, 나는 어느 출연자와 닮았을까?</p>
     </section>
 
   <div class="img"> 
@@ -96,7 +96,7 @@
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading</span>
                 </div>
-                <p class="text-center">닮은 참가자를 찾는 중입니다</p>
+                <p class="text-center">닮은 출연자를 찾는중...</p>
             </div>
                 <p class="result-message"></p>
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -177,8 +177,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
         let URL;
-        const urlMale = "https://teachablemachine.withgoogle.com/models/fquM_gWqr/";
-        const urlFemale = "https://teachablemachine.withgoogle.com/models/fquM_gWqr/";
+        const urlMale = "https://teachablemachine.withgoogle.com/models/Dc1Tm4JBV/";
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/Dc1Tm4JBV/";
         let model, webcam, labelContainer, maxPredictions;
        async function init() {
             if (document.getElementById("gender").checked) {
@@ -205,51 +205,51 @@
             var resultTitle, resultExplain, resultCeleb;
             if (document.getElementById("gender").checked) {
                 switch (prediction[0].className) {
-                    case "al":
-                        resultTitle = "NO.199"
-                        resultExplain = "당신은 199번 참가자 알리와 닮은 얼굴이네요!"
-                        resultCeleb = "압둘 알리: 배우 트리바티 아누팜"
+                    case "dw":
+                        resultTitle = "이동욱"
+                        resultExplain = "당신은 이동욱 역을 맡은 배우 이동욱과 닮은꼴 입니다."
+                        resultCeleb = "새진리회를 맹렬히 추종하는 화살촉의 리더. 비뚤어진 믿음을 전파하며 세상을 더욱 혼란스럽게 만든다."
                         break;
-                    case "ds":
-                        resultTitle = "NO.101"
-                        resultExplain = "당신은 101번 참가자 장덕수와 닮은 얼굴이네요!"
-                        resultCeleb = "장덕수: 배우 허성태"
+                    case "hj":
+                        resultTitle = "민혜진"
+                        resultExplain = "당신은 민혜진 역을 맡은 배우 김현주와 닮은꼴 입니다."
+                        resultCeleb = "새진리회와 그들을 맹목적으로 추종하는 집단인 '화살촉'의 행태에 맞서는 변호사"
                         break;
-                    case "in":
-                        resultTitle = "NO.001"
-                        resultExplain = "당신은 1번 참가자 오일남과 닮은 얼굴이네요!"
-                        resultCeleb = "오일남: 배우 오영수"
+                    case "jhj":
+                        resultTitle = "진희정"
+                        resultExplain = "당신은 진희정 역을 맡은 배우 이레와 닮은꼴 입니다."
+                        resultCeleb = "진경훈 형사의 딸. 깊은 상처를 간직한 그는 호기심에 찾은 새진리회에 점점 빠져들게 된다."
                         break;
-                    case "jh":
-                        resultTitle = "경찰"
-                        resultExplain = "당신은 잠입 경찰 준호와 닮은 얼굴이네요!"
-                        resultCeleb = "황준호: 배우 위하준"
+                    case "jj":
+                        resultTitle = "박정자"
+                        resultExplain = "당신은 박정자 역을 맡은 배우 김신록과 닮은꼴 입니다."
+                        resultCeleb = "지옥행 고지를 받았다. 남은 가족을 위해 수락한 그녀의 지옥행 시연 생중계는 세상에 강력한 파장을 몰고 온다."
                             break;
                         
-                    case "jy":
-                        resultTitle = "NO.240"
-                        resultExplain = "당신은 240번 참가자 지영과 닮은 얼굴이네요!"
-                        resultCeleb = "지영: 배우 이유미"
+                    case "js":
+                             resultTitle = "정진수"
+                        resultExplain = "당신은 정진수 역을 맡은 배우 유아인과 닮은꼴 입니다."
+                        resultCeleb = "지옥의 사자가 찾아오는 현상이 신의 계시라고 설명하는 신흥종교 '새진리회'의 수장"
                         break;
                     case "kh":
-                        resultTitle = "NO.456"
-                        resultExplain = "당신은 456번 참가자 기훈과 닮은 얼굴이네요!"
-                        resultCeleb = "성기훈: 배우 이정재"
+                        resultTitle = "진경훈"
+                        resultExplain = "당신은 진경훈 역을 맡은 배우 양익준과 닮은꼴 입니다."
+                        resultCeleb = "서울 한복판에서 일어난 지옥의 사자 출현 사건을 수사하는 담당 형사."
                             break;
-                        case "mn":
-                        resultTitle = "NO.212"
-                        resultExplain = "당신은 212번 참가자 미녀와 닮은 얼굴이네요!"
-                        resultCeleb = "한미녀: 배우 김주령"
+                        case "sh":
+                        resultTitle = "송소현"
+                        resultExplain = "당신은 송소현 역을 맡은 배우 원진아와 닮은꼴 입니다."
+                        resultCeleb = "믿을 수 없는 지옥행 고지에 감당하기 힘든 고통과 마주한 배영재의 아내."
                         break;
-                    case "sb":
-                        resultTitle = "NO.067"
-                        resultExplain = "당신은 67번째 참가자 새벽과 닮은 얼굴이네요!"
-                        resultCeleb = "강새벽: 배우 정호연"
+                    case "uj":
+                        resultTitle = "유지사제"
+                        resultExplain = "당신은 유지사제 역을 맡은 배우 류경수와 닮은꼴 입니다."
+                        resultCeleb = "새진리회의 행동대장. 새진리회의 부흥을 위해선 어떤 일도 서슴지 않는다."
                             break;
-                    case "sw":
-                        resultTitle = "NO.218"
-                        resultExplain = "당신은 218번째 참가자 상우와 닮은 얼굴이네요!"
-                        resultCeleb = "조상우: 배우 박해수"
+                    case "yj":
+                        resultTitle = "배영재"
+                        resultExplain = "당신은 배영재 역을 맡은 배우 박정민과 닮은꼴 입니다."
+                        resultCeleb = "새진리회 다큐멘터리를 제작하는 방송국 PD. 아내와 함께 믿을 수 없는 지옥행 고지를 마주한다."
                             break;
                         
                     default:
@@ -259,51 +259,51 @@
                 }
             } else {
                 switch (prediction[0].className) {
-                    case "al":
-                        resultTitle = "NO.199"
-                        resultExplain = "당신은 199번 참가자 알리와 닮은 얼굴이네요!"
-                        resultCeleb = "압둘 알리: 배우 트리바티 아누팜"
+                            case "dw":
+                        resultTitle = "이동욱"
+                        resultExplain = "당신은 이동욱 역을 맡은 배우 이동욱과 닮은꼴 입니다."
+                        resultCeleb = "새진리회를 맹렬히 추종하는 화살촉의 리더. 비뚤어진 믿음을 전파하며 세상을 더욱 혼란스럽게 만든다."
                         break;
-                    case "ds":
-                        resultTitle = "NO.101"
-                        resultExplain = "당신은 101번 참가자 장덕수와 닮은 얼굴이네요!"
-                        resultCeleb = "장덕수: 배우 허성태"
+                    case "hj":
+                        resultTitle = "민혜진"
+                        resultExplain = "당신은 민혜진 역을 맡은 배우 김현주와 닮은꼴 입니다."
+                        resultCeleb = "새진리회와 그들을 맹목적으로 추종하는 집단인 '화살촉'의 행태에 맞서는 변호사"
                         break;
-                    case "in":
-                        resultTitle = "NO.001"
-                        resultExplain = "당신은 1번 참가자 오일남과 닮은 얼굴이네요!"
-                        resultCeleb = "오일남: 배우 오영수"
+                    case "jhj":
+                        resultTitle = "진희정"
+                        resultExplain = "당신은 진희정 역을 맡은 배우 이레와 닮은꼴 입니다."
+                        resultCeleb = "진경훈 형사의 딸. 깊은 상처를 간직한 그는 호기심에 찾은 새진리회에 점점 빠져들게 된다."
                         break;
-                    case "jh":
-                        resultTitle = "경찰"
-                        resultExplain = "당신은 잠입 경찰 준호와 닮은 얼굴이네요!"
-                        resultCeleb = "황준호: 배우 위하준"
+                    case "jj":
+                        resultTitle = "박정자"
+                        resultExplain = "당신은 박정자 역을 맡은 배우 김신록과 닮은꼴 입니다."
+                        resultCeleb = "지옥행 고지를 받았다. 남은 가족을 위해 수락한 그녀의 지옥행 시연 생중계는 세상에 강력한 파장을 몰고 온다."
                             break;
                         
-                    case "jy":
-                        resultTitle = "NO.240"
-                        resultExplain = "당신은 240번 참가자 지영과 닮은 얼굴이네요!"
-                        resultCeleb = "지영: 배우 이유미"
+                    case "js":
+                             resultTitle = "정진수"
+                        resultExplain = "당신은 정진수 역을 맡은 배우 유아인과 닮은꼴 입니다."
+                        resultCeleb = "지옥의 사자가 찾아오는 현상이 신의 계시라고 설명하는 신흥종교 '새진리회'의 수장"
                         break;
                     case "kh":
-                        resultTitle = "NO.456"
-                        resultExplain = "당신은 456번 참가자 기훈과 닮은 얼굴이네요!"
-                        resultCeleb = "성기훈: 배우 이정재"
+                        resultTitle = "진경훈"
+                        resultExplain = "당신은 진경훈 역을 맡은 배우 양익준과 닮은꼴 입니다."
+                        resultCeleb = "서울 한복판에서 일어난 지옥의 사자 출현 사건을 수사하는 담당 형사."
                             break;
-                        case "mn":
-                        resultTitle = "NO.212"
-                        resultExplain = "당신은 212번 참가자 미녀와 닮은 얼굴이네요!"
-                        resultCeleb = "한미녀: 배우 김주령"
+                        case "sh":
+                        resultTitle = "송소현"
+                        resultExplain = "당신은 송소현 역을 맡은 배우 원진아와 닮은꼴 입니다."
+                        resultCeleb = "믿을 수 없는 지옥행 고지에 감당하기 힘든 고통과 마주한 배영재의 아내."
                         break;
-                    case "sb":
-                        resultTitle = "NO.067"
-                        resultExplain = "당신은 67번째 참가자 새벽과 닮은 얼굴이네요!"
-                        resultCeleb = "강새벽: 배우 정호연"
+                    case "uj":
+                        resultTitle = "유지사제"
+                        resultExplain = "당신은 유지사제 역을 맡은 배우 류경수와 닮은꼴 입니다."
+                        resultCeleb = "새진리회의 행동대장. 새진리회의 부흥을 위해선 어떤 일도 서슴지 않는다."
                             break;
-                    case "sw":
-                        resultTitle = "NO.218"
-                        resultExplain = "당신은 218번째 참가자 상우와 닮은 얼굴이네요!"
-                        resultCeleb = "조상우: 배우 박해수"
+                    case "yj":
+                        resultTitle = "배영재"
+                        resultExplain = "당신은 배영재 역을 맡은 배우 박정민과 닮은꼴 입니다."
+                        resultCeleb = "새진리회 다큐멘터리를 제작하는 방송국 PD. 아내와 함께 믿을 수 없는 지옥행 고지를 마주한다."
                             break;
                     default:
                         resultTitle = "알수없음"
@@ -311,9 +311,9 @@
                         resultCeleb = ""
                 }
             }
-            var title = "<div class='" + prediction[0].className + "-sq-title'>" + resultTitle + "</div>"
-            var explain = "<div class='sq-explain pt-2'>" + resultExplain + "</div>"
-            var celeb = "<div class='" + prediction[0].className + "-sq-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
+            var title = "<div class='" + prediction[0].className + "-he-title'>" + resultTitle + "</div>"
+            var explain = "<div class='he-explain pt-2'>" + resultExplain + "</div>"
+            var celeb = "<div class='" + prediction[0].className + "-he-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
             $('.result-message').html(title + explain + celeb);
             var barWidth;
             for (let i = 0; i < maxPredictions; i++) {
@@ -326,37 +326,37 @@
                 }
                 var labelTitle;
                 switch (prediction[i].className) {
-                    case "al":
-                        labelTitle = "알리"
+                    case "dw":
+                        labelTitle = "이동욱"
                         break;
-                    case "ds":
-                        labelTitle = "덕수"
+                    case "hj":
+                        labelTitle = "민혜진"
                         break;
-                    case "in":
-                        labelTitle = "일남"
+                    case "jhj":
+                        labelTitle = "진희정"
                         break;
-                    case "jh":
-                        labelTitle = "준호"
+                    case "jj":
+                        labelTitle = "박정자"
                          break;
-                        case "jy":
-                        labelTitle = "지영"
+                        case "js":
+                        labelTitle = "정진수"
                         break;
                     case "kh":
-                        labelTitle = "기훈"
+                        labelTitle = "진경훈"
                         break;
-                    case "mn":
-                        labelTitle = "미녀"
+                    case "sh":
+                        labelTitle = "송소현"
                         break;
-                    case "sb":
-                        labelTitle = "새벽"
+                    case "uj":
+                        labelTitle = "유지사제"
                          break;
-                       case "sw":
-                        labelTitle = "상우"
+                       case "yj":
+                        labelTitle = "배영재"
                          break;
                     default:
                         labelTitle = "알수없음"
             }
-                var label = "<div class='sq-label d-flex align-items-center'>" + labelTitle + "</div>"
+                var label = "<div class='he-label d-flex align-items-center'>" + labelTitle + "</div>"
                 var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) + "%</span></div></div>"
                 labelContainer.childNodes[i].innerHTML = label + bar;
             }

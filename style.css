@@ -200,7 +200,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.al-box {
+.dw-box {
  position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
   background-color: rgba(255, 102, 102, 0.2);
 }
-.al-bar {
+.dw-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ body {
   border-radius: 10px;
  background-color: rgba(255, 102, 102, 1);
 }
-.ds-box {
+.hj-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +226,7 @@ body {
   width: 100%;
  background-color: rgba(117, 204, 84, 0.2);
 }
-.ds-bar {
+.hj-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@ body {
   border-radius: 10px;
     background-color: rgba(117, 204, 84, 1);
 }
-.in-box {
+.jhj-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ body {
   width: 100%;
  background-color: rgba(255, 102, 153, 0.2);
 }
-.in-bar {
+.jhj-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
 background-color: rgba(255, 102, 153, 1);
 }
-.jh-box {
+.jj-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ background-color: rgba(255, 102, 153, 1);
   width: 100%;
 background-color: rgba(49, 132, 155, 0.2);
 }
-.jh-bar {
+.jj-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@ background-color: rgba(49, 132, 155, 0.2);
   border-radius: 10px;
    background-color: rgba(49, 132, 155, 1);
 }
-.jy-box {
+.js-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +277,7 @@ background-color: rgba(49, 132, 155, 0.2);
   width: 100%;
 background-color: rgba(235, 166, 190, 0.2);
 }
-.jy-bar {
+.js-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -302,7 +302,7 @@ background-color: rgba(235, 166, 190, 0.2);
   border-radius: 10px;
    background-color: rgba(105, 140, 102, 1);
 }
-.mn-box {
+.sh-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -311,7 +311,7 @@ background-color: rgba(235, 166, 190, 0.2);
   width: 100%;
   background-color: rgba(204, 204, 204, 0.2);
 }
-.mn-bar {
+.sh-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,7 @@ background-color: rgba(235, 166, 190, 0.2);
   border-radius: 10px;
    background-color: rgba(204, 204, 204, 1);
 }
-.sb-box {
+.uj-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -328,7 +328,7 @@ background-color: rgba(235, 166, 190, 0.2);
   width: 100%;
    background-color: rgba(204, 153, 255, 0.2);
 }
-.sb-bar {
+.uj-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -336,7 +336,7 @@ background-color: rgba(235, 166, 190, 0.2);
   border-radius: 10px;
  background-color: rgba(204, 153, 255, 1);
 }
-.sw-box {
+.yj-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -345,7 +345,7 @@ background-color: rgba(235, 166, 190, 0.2);
   width: 100%;
    background-color: rgba(255, 205, 0, 0.2);
 }
-.sw-bar {
+.yj-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -358,7 +358,7 @@ background-color: rgba(235, 166, 190, 0.2);
   font-size: 1rem;
   color: #ffffff;
 }
-.sq-label {
+.he-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -372,70 +372,70 @@ background-color: rgba(235, 166, 190, 0.2);
 }
 
 
-.sq-explain {
+.he-explain {
     color: #23231e;
     font-size: 1.5rem;
 }
-.al-sq-title {
+.dw-he-title {
     color: #ffa79d;
 }
-.al-sq-celeb {
+.dw-he-celeb {
     color: #ffa79d;
     font-size: 1.2rem;
 }
-.ds-sq-title {
+.hj-he-title {
     color: #ff9b9b;
 }
-.ds-sq-celeb {
+.hj-he-celeb {
     color: #ff9b9b;
     font-size: 1.2rem;
 }
-.in-sq-title {
+.jhj-he-title {
     color: #ff6c0a;
 }
-.in-sq-celeb {
+.jhj-he-celeb {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.jh-sq-title {
+.jj-he-title {
     color: #ff0000;
 }
-.jh-sq-celeb {
+.jj-he-celeb {
     color: #ff0000;
     font-size: 1.2rem;
 }
-.jy-sq-title {
+.js-he-title {
     color: #676a6e;
 }
-.jy-sq-celeb {
+.js-he-celeb {
     color: #3e99e9;
     font-size: 1.2rem;
 }
-.kh-sq-title {
+.kh-he-title {
     color: #3ba363;
 }
-.kh-sq-celeb {
+.kh-he-celeb {
     color: #3ba363;
     font-size: 1.2rem;
 }
-.mn-sq-title {
+.sh-he-title {
     color: #ff6c0a;
 }
-.mn-sq-celeb {
+.sh-he-celeb {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.sb-sq-title {
+.uj-he-title {
     color: #548dd4;
 }
-.sb-sq-celeb {
+.uj-he-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
-.sw-sq-title {
+.yj-he-title {
     color: #e56995;
 }
-.sw-sq-celeb {
+.yj-he-celeb {
     color: #e56995;
     font-size: 1.2rem;
 }
