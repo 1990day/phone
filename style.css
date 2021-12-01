@@ -2,7 +2,7 @@ body {
   font-family: 'Jua', sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
-  color: #FAA0A6;
+  color: #1E1B1B;
 }
 
 .file-upload {
@@ -23,7 +23,7 @@ body {
   width: 100%;
   margin: 0;
   color: #fff;
-  background: #F2E7FA;
+  background: #D1A5F7;
   border: none;
   padding: 10px;
   border-radius: 4px;
@@ -74,13 +74,13 @@ body {
     object-fit: contain;
     border-radius: 5px;
     border: dashed 1.5px #ffffff;
-    background-color: #FDDBE3;
+    background-color: #FCE5E5;
     
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #FDDBE3;
+    background-color: #FFF0F0;
     border: 1.5px dashed #ffffff;
 }
 
@@ -108,8 +108,8 @@ body {
 
 .try-again-btn {
   border-radius: 40px;
-  border: solid 1.5px #35465d;
-  background-color: #35465d;
+  border: solid 1.5px #FCB4B4;
+  background-color: #FCB4B4;
 }
 
 .try-again-text {
@@ -135,12 +135,12 @@ body {
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: left;
-  color: #B9B6B7; 
+  color: #282728; 
 }
 
 
 .navbar-light .navbar-toggler {
-    border-color: #B9B6B7;
+    border-color: #282728;
 }
 .section {
     margin-top: 50px;
@@ -149,20 +149,20 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #FFE010;
+  color: #FD3E8F;
         font-size: 25px;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #FFAFB2;
+  color: #31312E;
         font-size: 30px;
 }
 .sbtitle {
   line-height: 1.53;
   text-align: center;
-  color: #FCDC5F;
+  color: #A5A297;
         font-size: 20px;
 }
 
@@ -188,7 +188,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.53;
     text-align: center;
-    color: #35465d;
+    color: #4a2929;
     margin: 0 auto;
 }
 
@@ -200,182 +200,148 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.ap-box {
+.gb-box {
  position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(255, 102, 102, 0.2);
+  background-color: rgba(255, 182, 182, 0.2);
 }
-.ap-bar {
+.gb-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(255, 102, 102, 1);
+ background-color: rgba(255, 182, 182, 1);
 }
-.cc-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
- background-color: rgba(117, 204, 84, 0.2);
-}
-.cc-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-    background-color: rgba(117, 204, 84, 1);
-}
-.cs-box {
+.hc-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
- background-color: rgba(255, 102, 153, 0.2);
+ background-color: rgba(135, 239, 201, 0.2);
 }
-.cs-bar {
+.hc-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-background-color: rgba(255, 102, 153, 1);
+    background-color: rgba(135, 239, 201, 1);
 }
-.jr-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-background-color: rgba(49, 132, 155, 0.2);
-}
-.jr-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(49, 132, 155, 1);
-}
-.jz-box {
+.hj-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-background-color: rgba(235, 166, 190, 0.2);
+ background-color: rgba(171, 89, 226, 0.2);
 }
-.jz-bar {
+.hj-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(235, 166, 190, 1);
+background-color: rgba(171, 89, 226, 1);
 }
-.ly-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(105, 140, 102, 0.2);
-}
-.ly-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(105, 140, 102, 1);
-}
-.mz-box {
+.ik-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(204, 204, 204, 0.2);
+background-color: rgba(255, 0, 0, 0.2);
 }
-.mz-bar {
+.ik-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-   background-color: rgba(204, 204, 204, 1);
+   background-color: rgba(255, 0, 0, 1);
 }
-.no-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-   background-color: rgba(204, 153, 255, 0.2);
-}
-.no-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
- background-color: rgba(204, 153, 255, 1);
-}
-.pr-box {
+.lh-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-   background-color: rgba(255, 205, 0, 0.2);
+background-color: rgba(250, 216, 42, 0.2);
 }
-.pr-bar {
+.lh-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(255, 205, 0, 1);
+ background-color: rgba(250, 216, 42, 1);
 }
-.tb-box {
+.lj-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-   background-color: rgba(255, 205, 0, 0.2);
+  background-color: rgba(57, 57, 56, 0.2);
 }
-.tb-bar {
+.lj-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(255, 205, 0, 1);
+   background-color: rgba(57, 57, 56, 1);
+}
+.mn-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(255, 140, 7, 0.2);
+}
+.mn-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+   background-color: rgba(255, 140, 7, 1);
+}
+.nz-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+   background-color: rgba(148, 216, 255, 0.2);
+}
+.nz-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+ background-color: rgba(148, 216, 255, 1);
 }
 
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
 }
-.kk-label {
+.swf-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -389,78 +355,64 @@ background-color: rgba(235, 166, 190, 0.2);
 }
 
 
-.kk-explain {
+.swf-explain {
     color: #23231e;
     font-size: 1.5rem;
 }
-.ap-kk-title {
-    color: #FCC0C0;
+.gb-swf-title {
+    color: #FFB6B6;
 }
-.ap-kk-celeb {
-    color: #FCC0C0;
+.gb-swf-celeb {
+    color: #FFB6B6;
     font-size: 1.2rem;
 }
-.cc-kk-title {
-    color: #1DC159;
+.hc-swf-title {
+    color: #87EFC9;
 }
-.cc-kk-celeb {
-    color: #1DC159;
+.hc-swf-celeb {
+    color: #87EFC9;
     font-size: 1.2rem;
 }
-.cs-kk-title {
-    color: #FDE467;
+.hj-swf-title {
+    color: #AB59E2;
 }
-.cs-kk-celeb {
-    color: #FDE467;
+.hj-swf-celeb {
+    color: #AB59E2;
     font-size: 1.2rem;
 }
-.jr-kk-title {
-    color: #59EF9A;
+.ik-swf-title {
+    color: #ff0000;
 }
-.jr-kk-celeb {
-    color: #59EF9A;
+.ik-swf-celeb {
+    color: #ff0000;
     font-size: 1.2rem;
 }
-.jz-kk-title {
-    color: #874E16;
+.lh-swf-title {
+    color: #FAD82A;
 }
-.jz-kk-celeb {
-    color: #874E16;
+.lh-swf-celeb {
+    color: #FAD82A;
     font-size: 1.2rem;
 }
-.ly-kk-title {
-    color: #E5BD1C;
+.lj-swf-title {
+    color: #393938;
 }
-.ly-kk-celeb {
-    color: #E5BD1C;
+.lj-swf-celeb {
+    color: #393938;
     font-size: 1.2rem;
 }
-.mz-kk-title {
-    color: #FFDE57;
+.mn-swf-title {
+    color: #FF8C07;
 }
-.mz-kk-celeb {
-    color: #FFDE57;
+.mn-swf-celeb {
+    color: #FF8C07;
     font-size: 1.2rem;
 }
-.no-kk-title {
-    color: #375BBC;
+.nz-swf-title {
+    color: #94D8FF;
 }
-.no-kk-celeb {
-    color: #375BBC;
-    font-size: 1.2rem;
-}
-.pr-kk-title {
-    color: #AB794E;
-}
-.pr-kk-celeb {
-    color: #AB794E;
-    font-size: 1.2rem;
-}
-.tb-kk-title {
-    color: #FDC50B;
-}
-.tb-kk-celeb {
-    color: #FDC50B;
+.nz-swf-celeb {
+    color: #94D8FF;
     font-size: 1.2rem;
 }
 
