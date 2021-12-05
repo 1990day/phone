@@ -2,7 +2,7 @@ body {
   font-family: 'Jua', sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
-  color: #1E1B1B;
+  color: #FAA0A6;
 }
 
 .file-upload {
@@ -23,7 +23,7 @@ body {
   width: 100%;
   margin: 0;
   color: #fff;
-  background: #D1A5F7;
+  background: #F2E7FA;
   border: none;
   padding: 10px;
   border-radius: 4px;
@@ -74,13 +74,13 @@ body {
     object-fit: contain;
     border-radius: 5px;
     border: dashed 1.5px #ffffff;
-    background-color: #FCE5E5;
+    background-color: #FDDBE3;
     
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #FFF0F0;
+    background-color: #FDDBE3;
     border: 1.5px dashed #ffffff;
 }
 
@@ -108,8 +108,8 @@ body {
 
 .try-again-btn {
   border-radius: 40px;
-  border: solid 1.5px #FCB4B4;
-  background-color: #FCB4B4;
+  border: solid 1.5px #35465d;
+  background-color: #35465d;
 }
 
 .try-again-text {
@@ -135,12 +135,12 @@ body {
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: left;
-  color: #282728; 
+  color: #B9B6B7; 
 }
 
 
 .navbar-light .navbar-toggler {
-    border-color: #282728;
+    border-color: #B9B6B7;
 }
 .section {
     margin-top: 50px;
@@ -149,20 +149,20 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #FD3E8F;
+  color: #FFE010;
         font-size: 25px;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #31312E;
+  color: #FFAFB2;
         font-size: 30px;
 }
 .sbtitle {
   line-height: 1.53;
   text-align: center;
-  color: #A5A297;
+  color: #FCDC5F;
         font-size: 20px;
 }
 
@@ -188,7 +188,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.53;
     text-align: center;
-    color: #4a2929;
+    color: #35465d;
     margin: 0 auto;
 }
 
@@ -200,107 +200,56 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.gb-box {
+.gg-box {
  position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(255, 182, 182, 0.2);
+   background-color: rgba(255, 102, 102, 0.2);
 }
-.gb-bar {
+.gg-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(255, 182, 182, 1);
+ background-color: rgba(255, 102, 102, 1);
 }
-.hc-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
- background-color: rgba(135, 239, 201, 0.2);
-}
-.hc-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-    background-color: rgba(135, 239, 201, 1);
-}
-.hj-box {
+.hg-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
- background-color: rgba(171, 89, 226, 0.2);
+ background-color: rgba(117, 204, 84, 0.2);
 }
-.hj-bar {
+.hg-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-background-color: rgba(171, 89, 226, 1);
+     background-color: rgba(117, 204, 84, 1);
 }
-.ik-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-background-color: rgba(255, 0, 0, 0.2);
-}
-.ik-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(255, 0, 0, 1);
-}
-.lh-box {
+.lv-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-background-color: rgba(250, 216, 42, 0.2);
+ background-color: rgba(255, 166, 166, 0.2);
 }
-.lh-bar {
+.lv-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(250, 216, 42, 1);
-}
-.lj-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(57, 57, 56, 0.2);
-}
-.lj-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(57, 57, 56, 1);
+background-color: rgba(255, 166, 166, 1);
 }
 .mn-box {
   position: absolute;
@@ -309,7 +258,7 @@ background-color: rgba(250, 216, 42, 0.2);
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(255, 140, 7, 0.2);
+background-color: rgba(4, 146, 255, 0.2);
 }
 .mn-bar {
   position: absolute;
@@ -317,31 +266,82 @@ background-color: rgba(250, 216, 42, 0.2);
   left: 0;
   height: 2rem;
   border-radius: 10px;
-   background-color: rgba(255, 140, 7, 1);
+   background-color: rgba(4, 146, 255, 1);
 }
-.nz-box {
+.sb-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-   background-color: rgba(148, 216, 255, 0.2);
+background-color: rgba(255, 128, 0, 0.2);
 }
-.nz-bar {
+.sb-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(148, 216, 255, 1);
+ background-color: rgba(255, 128, 0, 1);
+}
+.sg-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(255, 206, 7, 0.2);
+}
+.sg-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+    background-color: rgba(255, 206, 7, 1);
+}
+.su-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(153, 76, 0, 0.2);
+}
+.su-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+   background-color: rgba(153, 76, 0, 1);
+}
+.ib-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+   background-color: rgba(204, 153, 255, 0.2);
+}
+.ib-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+ background-color: rgba(204, 153, 255, 1);
 }
 
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
 }
-.swf-label {
+.us-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -355,64 +355,64 @@ background-color: rgba(250, 216, 42, 0.2);
 }
 
 
-.swf-explain {
+.us-explain {
     color: #23231e;
     font-size: 1.5rem;
 }
-.gb-swf-title {
-    color: #FFB6B6;
+.gg-us-title {
+    color:  #FF6666;
 }
-.gb-swf-celeb {
-    color: #FFB6B6;
+.gg-us-celeb {
+    color: #FF6666;
     font-size: 1.2rem;
 }
-.hc-swf-title {
-    color: #87EFC9;
+.hg-us-title {
+      color: #75CC54;
 }
-.hc-swf-celeb {
-    color: #87EFC9;
+.hg-us-celeb {
+    color: #75CC54;
     font-size: 1.2rem;
 }
-.hj-swf-title {
-    color: #AB59E2;
+.lv-us-title {
+ color: #FFA6A6;
 }
-.hj-swf-celeb {
-    color: #AB59E2;
+.lv-us-celeb {
+       color: #FFA6A6;
     font-size: 1.2rem;
 }
-.ik-swf-title {
-    color: #ff0000;
+.mn-us-title {
+    color: #0492FF;
 }
-.ik-swf-celeb {
-    color: #ff0000;
+.mn-us-celeb {
+    color: #0492FF;
     font-size: 1.2rem;
 }
-.lh-swf-title {
-    color: #FAD82A;
+.sb-us-title {
+   color: #FF9C07;
 }
-.lh-swf-celeb {
-    color: #FAD82A;
+.sb-us-celeb {
+  color: #FF9C07;
+     font-size: 1.2rem;
+}
+.sg-us-title {
+  color: #FFCE07;
+}
+.sg-us-celeb {
+    color: #FFCE07;
     font-size: 1.2rem;
 }
-.lj-swf-title {
-    color: #393938;
+.su-us-title {
+   color: #A46A15;
 }
-.lj-swf-celeb {
-    color: #393938;
+.su-us-celeb {
+ color: #A46A15;
     font-size: 1.2rem;
 }
-.mn-swf-title {
-    color: #FF8C07;
+.ib-us-title {
+    color: #CC99FF;
 }
-.mn-swf-celeb {
-    color: #FF8C07;
-    font-size: 1.2rem;
-}
-.nz-swf-title {
-    color: #94D8FF;
-}
-.nz-swf-celeb {
-    color: #94D8FF;
+.ib-us-celeb {
+     color: #CC99FF;
     font-size: 1.2rem;
 }
 
