@@ -16,19 +16,19 @@
     <meta ht-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>여자 아이돌 새멤버</title>
-    <meta name="description" content="걸그룹 테스트">
-    <meta name="title" content="내가 걸그룹에 들어간다면?">
-    <meta name="subject" content="나는 어느 여돌과 얼굴합이 맞을까">
-    <meta name="keywords" content="얼굴테스트,mbti테스트,걸그룹,걸그룹테스트,아이돌테스트,레드벨벳,마마무,블랙핑크,스테이씨,아이브,에스파,여자아이들,오마이걸,있지,트와이스,걸그룹얼굴,여자아이돌얼굴,아이돌멤버,걸그룹얼굴합,걸그룹테스트">
+    <title>남자 아이돌 새멤버</title>
+    <meta name="description" content="남자아이돌 테스트">
+    <meta name="title" content="내가 남돌에 들어간다면?">
+    <meta name="subject" content="나는 어느 남돌과 얼굴합이 맞을까">
+    <meta name="keywords" content="얼굴테스트,mbti테스트,남그룹,아이돌그룹테스트,아이돌테스트,bts,방탄얼굴,bts얼굴,nct얼굴,엔씨티얼굴,sf9얼굴sf9,nct,더보이즈,몬스타엑스,샤이니,세븐틴,스트레이키즈,엑소,투바투,투모로우바이투게더,남돌얼굴,남자아이돌얼굴,아이돌멤버,걸그룹얼굴합,남돌테스트">
 
     <meta name="author" content="1990DAY">
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://girlgroup.netlify.app/" />
     <meta property="og:url" content="https://girlgroup.netlify.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="걸그룹 테스트" />
-    <meta property="og:description" content="여자 아이돌 새멤버 테스트"
+    <meta property="og:title" content="남돌 테스트" />
+    <meta property="og:description" content="남자 아이돌 새멤버 테스트"
     />
  
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -59,16 +59,16 @@
             </ul>
         </div>
     <section class="section">
-        <h1 class="title">나에게 어울리는 걸그룹은?</h1>
-        <h2 class="subtitle">얼굴로 보는 걸그룹 테스트</h2>
-        <h2 class="sr-only">나에게 어울리는 걸그룹은?</h2>
-        <h3 class="sr-only">인공지능으로 파악한 2022년 운세</h3>
+        <h1 class="title">나에게 어울리는 남그룹은?</h1>
+        <h2 class="subtitle">얼굴로 보는 남돌 테스트</h2>
+        <h2 class="sr-only">나에게 어울리는 남그룹은?</h2>
+        <h3 class="sr-only">인공지능으로 파악한 남돌 테스트</h3>
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
         <p class="sr-only">얼굴로 보는 아이돌 테스트</p>
     </section>
 
   <div class="img"> 
-<img class="up mt-3 pb-5" src="face.jpg" alt="up">
+<img class="up mt-3 pb-5" src="face.png" alt="up">
 </div>
 
     <h3 class="sbtitle""d-flex justify-content-center">성별 선택</h3>
@@ -180,8 +180,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
         let URL;
-        const urlMale = "https://teachablemachine.withgoogle.com/models/A6TpPB3wR/";
-        const urlFemale = "https://teachablemachine.withgoogle.com/models/A6TpPB3wR/";
+        const urlMale = "https://teachablemachine.withgoogle.com/models/oiJmPANOw/";
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/oiJmPANOw/";
         let model, webcam, labelContainer, maxPredictions;
        async function init() {
             if (document.getElementById("gender").checked) {
@@ -208,56 +208,56 @@
             var resultTitle, resultExplain, resultCeleb;
             if (document.getElementById("gender").checked) {
                 switch (prediction[0].className) {
-                     case "bp":
-                        resultTitle = "블랙핑크"
-                        resultExplain = "당신은 블랙핑크와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "블랙핑크 : 지수, 제니, 로제, 리사"
+                     case "bt":
+                        resultTitle = "방탄소년단"
+                        resultExplain = "당신은 방탄소년단과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "방탄소년단 : RM, 진, 슈가, 제이홉, 지민, 뷔, 정국"
                         break;
-                    case "ie":
-                        resultTitle = "여자아이들"
-                        resultExplain = "당신은 여자아이들과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "여자아이들 : 미연, 민니, 소연, 우기, 슈화"
+                    case "mx":
+                        resultTitle = "몬스타엑스"
+                        resultExplain = "당신은 몬스타엑스와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "몬스타엑스 : 셔누, 민혁, 기현, 형원, 주헌, 아이엠"
                         break;
-                    case "it":
-                        resultTitle = "ITZY"
-                        resultExplain = "당신은 ITZY와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "ITZY : 예지, 리아, 류진, 채령, 유나"
+                    case "nc":
+                        resultTitle = "NCT"
+                        resultExplain = "당신은 NCT와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "NCT : 태일, 쟈니, 태용, 유타, 도영, 텐, 재현, 윈윈, 마크, 런쥔, 제노, 해찬, 재민, 천러, 지성, 루카스, 정우, 쿤, 샤오쥔, 양양, 헨드리, 쇼타로, 성찬"
                         break;
-                    case "iv":
-                        resultTitle = "IVE"
-                        resultExplain = "당신은 IVE와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "IVE : 안유진, 가을, 레이, 장원영, 리즈, 이서"
+                    case "sf":
+                        resultTitle = "SF9"
+                        resultExplain = "당신은 SF9과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "SF9 : 영빈, 인성, 재윤, 다윈, 로운, 주호, 유태양, 휘영, 찬희"
                             break;
                         
-                    case "mm":
-                        resultTitle = "마마무"
-                        resultExplain = "당신은 마마무와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "마마무 : 솔라, 문별, 휘인, 화사"
+                    case "sk":
+                        resultTitle = "스트레이 키즈"
+                        resultExplain = "당신은 스트레이 키즈와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "스트레이 키즈 : 방찬, 리노, 창빈, 현진, 한, 필릭스, 승민, 아이엔"
                         break;
-                    case "om":
-                        resultTitle = "오마이걸"
-                        resultExplain = "당신은 오마이걸과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "오마이걸 : 효정, 미미, 유아, 승희, 지호, 비니, 아린"
+                    case "sn":
+                        resultTitle = "샤이니"
+                        resultExplain = "당신은 샤이니와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "샤이니 : 온유, 종현, 키, 민호, 태민"
                             break;
-                        case "rd":
-                        resultTitle = "레드벨벳"
-                        resultExplain = "당신은 레드벨벳과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "레드벨벳 : 웬디, 아이린, 슬기, 조이, 예리"
+                        case "sv":
+                        resultTitle = "세븐틴"
+                        resultExplain = "당신은 세븐틴과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "세븐틴 : 에스쿱스, 정한, 조슈아, 준, 호시, 원우, 우지, 디에잇, 민규, 도겸, 승관, 버논, 디노"
                         break;
-                    case "sp":
-                        resultTitle = "에스파"
-                        resultExplain = "당신은 에스파와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "에스파 : 카리나, 윈터, 지젤, 닝닝"
+                    case "tb":
+                        resultTitle = "더보이즈"
+                        resultExplain = "당신은 더보이즈와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "더보이즈 : 주학년, 영훈, 주연, 현재, 상연, 선우, 큐, 케빈, 제이콥, 에릭, 뉴"
                             break;
-                    case "tw":
-                        resultTitle = "트와이스"
-                        resultExplain = "당신은 트와이스와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "트와이스 : 나연, 정연, 모모, 사나, 지효, 미나, 다현, 채영, 쯔위"
+                    case "tt":
+                        resultTitle = "투모로우바이투게더"
+                        resultExplain = "당신은 투모로우바이투게더와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "투모로우바이투게더 : 수빈, 영준, 범규, 태현, 휴닝카이"
                             break;
-    	   case "st":
-                        resultTitle = "스테이씨"
-                        resultExplain = "당신은 스테이씨와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "스테이씨 : 수민, 시은, 아이사, 세은, 윤, 재이"
+    	   case "xo":
+                        resultTitle = "EXO"
+                        resultExplain = "당신은 EXO와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "EXO : 수호, 찬열, 카이, 디오, 백현, 세훈, 시우민, 첸, 레이"
                             break;
 
                         
@@ -268,56 +268,56 @@
                 }
             } else {
                 switch (prediction[0].className) {
-                         case "bp":
-                        resultTitle = "블랙핑크"
-                        resultExplain = "당신은 블랙핑크와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "블랙핑크 : 지수, 제니, 로제, 리사"
+                             case "bt":
+                        resultTitle = "방탄소년단"
+                        resultExplain = "당신은 방탄소년단과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "방탄소년단 : RM, 진, 슈가, 제이홉, 지민, 뷔, 정국"
                         break;
-                    case "ie":
-                        resultTitle = "여자아이들"
-                        resultExplain = "당신은 여자아이들과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "여자아이들 : 미연, 민니, 소연, 우기, 슈화"
+                    case "mx":
+                        resultTitle = "몬스타엑스"
+                        resultExplain = "당신은 몬스타엑스와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "몬스타엑스 : 셔누, 민혁, 기현, 형원, 주헌, 아이엠"
                         break;
-                    case "it":
-                        resultTitle = "ITZY"
-                        resultExplain = "당신은 ITZY와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "ITZY : 예지, 리아, 류진, 채령, 유나"
+                    case "nc":
+                        resultTitle = "NCT"
+                        resultExplain = "당신은 NCT와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "NCT : 태일, 쟈니, 태용, 유타, 도영, 텐, 재현, 윈윈, 마크, 런쥔, 제노, 해찬, 재민, 천러, 지성, 루카스, 정우, 쿤, 샤오쥔, 양양, 헨드리, 쇼타로, 성찬"
                         break;
-                    case "iv":
-                        resultTitle = "IVE"
-                        resultExplain = "당신은 IVE와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "IVE : 안유진, 가을, 레이, 장원영, 리즈, 이서"
+                    case "sf":
+                        resultTitle = "SF9"
+                        resultExplain = "당신은 SF9과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "SF9 : 영빈, 인성, 재윤, 다윈, 로운, 주호, 유태양, 휘영, 찬희"
                             break;
                         
-                    case "mm":
-                        resultTitle = "마마무"
-                        resultExplain = "당신은 마마무와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "마마무 : 솔라, 문별, 휘인, 화사"
+                    case "sk":
+                        resultTitle = "스트레이 키즈"
+                        resultExplain = "당신은 스트레이 키즈와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "스트레이 키즈 : 방찬, 리노, 창빈, 현진, 한, 필릭스, 승민, 아이엔"
                         break;
-                    case "om":
-                        resultTitle = "오마이걸"
-                        resultExplain = "당신은 오마이걸과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "오마이걸 : 효정, 미미, 유아, 승희, 지호, 비니, 아린"
+                    case "sn":
+                        resultTitle = "샤이니"
+                        resultExplain = "당신은 샤이니와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "샤이니 : 온유, 종현, 키, 민호, 태민"
                             break;
-                        case "rd":
-                        resultTitle = "레드벨벳"
-                        resultExplain = "당신은 레드벨벳과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "레드벨벳 : 웬디, 아이린, 슬기, 조이, 예리"
+                        case "sv":
+                        resultTitle = "세븐틴"
+                        resultExplain = "당신은 세븐틴과 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "세븐틴 : 에스쿱스, 정한, 조슈아, 준, 호시, 원우, 우지, 디에잇, 민규, 도겸, 승관, 버논, 디노"
                         break;
-                    case "sp":
-                        resultTitle = "에스파"
-                        resultExplain = "당신은 에스파와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "에스파 : 카리나, 윈터, 지젤, 닝닝"
+                    case "tb":
+                        resultTitle = "더보이즈"
+                        resultExplain = "당신은 더보이즈와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "더보이즈 : 주학년, 영훈, 주연, 현재, 상연, 선우, 큐, 케빈, 제이콥, 에릭, 뉴"
                             break;
-                    case "tw":
-                        resultTitle = "트와이스"
-                        resultExplain = "당신은 트와이스와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "트와이스 : 나연, 정연, 모모, 사나, 지효, 미나, 다현, 채영, 쯔위"
+                    case "tt":
+                        resultTitle = "투모로우바이투게더"
+                        resultExplain = "당신은 투모로우바이투게더와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "투모로우바이투게더 : 수빈, 영준, 범규, 태현, 휴닝카이"
                             break;
-    	   case "st":
-                        resultTitle = "스테이씨"
-                        resultExplain = "당신은 스테이씨와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
-                        resultCeleb = "스테이씨 : 수민, 시은, 아이사, 세은, 윤, 재이"
+    	   case "xo":
+                        resultTitle = "EXO"
+                        resultExplain = "당신은 EXO와 얼굴 합이 잘 맞고 멤버들과 닮았네요"
+                        resultCeleb = "EXO : 수호, 찬열, 카이, 디오, 백현, 세훈, 시우민, 첸, 레이"
                             break;
                     default:
                         resultTitle = "알수없음"
@@ -340,35 +340,35 @@
                 }
                 var labelTitle;
                 switch (prediction[i].className) {
-                    case "bp":
-                        labelTitle = "블랙핑크"
+                    case "bt":
+                        labelTitle = "bts"
                         break;
-                    case "ie":
-                        labelTitle = "아이들"
+                    case "mx":
+                        labelTitle = "몬엑"
                         break;
-                    case "it":
-                        labelTitle = "있지"
+                    case "nc":
+                        labelTitle = "nct"
                         break;
-                    case "iv":
-                        labelTitle = "아이브"
+                    case "sf":
+                        labelTitle = "sf9"
                          break;
-                        case "mm":
-                        labelTitle = "마마무"
+                        case "sk":
+                        labelTitle = "스키즈"
                         break;
-                    case "om":
-                        labelTitle = "오마이걸"
+                    case "sn":
+                        labelTitle = "샤이니"
                         break;
-                    case "rd":
-                        labelTitle = "레드벨벳"
+                    case "sv":
+                        labelTitle = "세븐틴"
                         break;
-                    case "sp":
-                        labelTitle = "에스파"
+                    case "tb":
+                        labelTitle = "더보이즈"
                          break;
-                    case "st":
-                        labelTitle = "스테이씨"
+                    case "tt":
+                        labelTitle = "투바투"
                         break;
-                    case "tw":
-                        labelTitle = "트와이스"
+                    case "xo":
+                        labelTitle = "exo"
                          break;
                     default:
                         labelTitle = "알수없음"

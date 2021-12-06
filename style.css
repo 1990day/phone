@@ -200,7 +200,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.bp-box {
+.bt-box {
  position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
    background-color: rgba(255, 102, 102, 0.2);
 }
-.bp-bar {
+.bt-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ body {
   border-radius: 10px;
  background-color: rgba(255, 102, 102, 1);
 }
-.ie-box {
+.mx-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +226,7 @@ body {
   width: 100%;
  background-color: rgba(117, 204, 84, 0.2);
 }
-.ie-bar {
+.mx-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@ body {
   border-radius: 10px;
      background-color: rgba(117, 204, 84, 1);
 }
-.it-box {
+.nc-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ body {
   width: 100%;
  background-color: rgba(255, 166, 166, 0.2);
 }
-.it-bar {
+.nc-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
 background-color: rgba(255, 166, 166, 1);
 }
-.iv-box {
+.sf-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ background-color: rgba(255, 166, 166, 1);
   width: 100%;
 background-color: rgba(4, 146, 255, 0.2);
 }
-.iv-bar {
+.sf-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@ background-color: rgba(4, 146, 255, 0.2);
   border-radius: 10px;
    background-color: rgba(4, 146, 255, 1);
 }
-.mm-box {
+.sk-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +277,7 @@ background-color: rgba(4, 146, 255, 0.2);
   width: 100%;
 background-color: rgba(255, 128, 0, 0.2);
 }
-.mm-bar {
+.sk-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +285,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
  background-color: rgba(255, 128, 0, 1);
 }
-.om-box {
+.sn-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -294,7 +294,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
   background-color: rgba(255, 206, 7, 0.2);
 }
-.om-bar {
+.sn-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -302,7 +302,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
     background-color: rgba(255, 206, 7, 1);
 }
-.rd-box {
+.sv-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -311,7 +311,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
   background-color: rgba(153, 76, 0, 0.2);
 }
-.rd-bar {
+.sv-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
    background-color: rgba(153, 76, 0, 1);
 }
-.sp-box {
+.tb-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -328,7 +328,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
    background-color: rgba(154, 0, 255, 0.2);
 }
-.sp-bar {
+.tb-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -336,7 +336,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
  background-color: rgba(154, 0, 255, 1);
 }
-.st-box {
+.tt-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -345,14 +345,14 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
    background-color: rgba(27, 145, 9, 0.2);
 }
-.st-bar {
+.tt-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
  background-color: rgba(27, 145, 9, 1);
-}.tw-box {
+}.xo-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -361,7 +361,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
    background-color: rgba(204, 153, 255, 0.2);
 }
-.tw-bar {
+.xo-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -391,73 +391,73 @@ background-color: rgba(255, 128, 0, 0.2);
     color: #23231e;
     font-size: 1.5rem;
 }
-.bp-gg-title {
+.bt-gg-title {
     color:  #FF6666;
 }
-.bp-gg-celeb {
+.bt-gg-celeb {
     color: #FF6666;
     font-size: 1.2rem;
 }
-.ie-gg-title {
+.mx-gg-title {
       color: #75CC54;
 }
-.ie-gg-celeb {
+.mx-gg-celeb {
     color: #75CC54;
     font-size: 1.2rem;
 }
-.it-gg-title {
+.nc-gg-title {
  color: #FFA6A6;
 }
-.it-gg-celeb {
+.nc-gg-celeb {
        color: #FFA6A6;
     font-size: 1.2rem;
 }
-.iv-gg-title {
+.sf-gg-title {
     color: #0492FF;
 }
-.iv-gg-celeb {
+.sf-gg-celeb {
     color: #0492FF;
     font-size: 1.2rem;
 }
-.mm-gg-title {
+.sk-gg-title {
    color: #FF9C07;
 }
-.mm-gg-celeb {
+.sk-gg-celeb {
   color: #FF9C07;
      font-size: 1.2rem;
 }
-.om-gg-title {
+.sn-gg-title {
   color: #FFCE07;
 }
-.om-gg-celeb {
+.sn-gg-celeb {
     color: #FFCE07;
     font-size: 1.2rem;
 }
-.rd-gg-title {
+.sv-gg-title {
    color: #A46A15;
 }
-.rd-gg-celeb {
+.sv-gg-celeb {
  color: #A46A15;
     font-size: 1.2rem;
 }
-.sp-gg-title {
+.tb-gg-title {
     color: #9A00FF;
 }
-.sp-gg-celeb {
+.tb-gg-celeb {
      color: #9A00FF;
     font-size: 1.2rem;
 }
-.st-gg-title {
+.tt-gg-title {
     color: #1B9109;
 }
-.st-gg-celeb {
+.tt-gg-celeb {
      color: #1B9109;
     font-size: 1.2rem;
 }
-.tw-gg-title {
+.xo-gg-title {
     color: #CC99FF;
 }
-.tw-gg-celeb {
+.xo-gg-celeb {
      color: #CC99FF;
     font-size: 1.2rem;
 }
