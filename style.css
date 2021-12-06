@@ -2,7 +2,7 @@ body {
   font-family: 'Jua', sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
-  color: #FAA0A6;
+  color: #9A9A9A;
 }
 
 .file-upload {
@@ -149,20 +149,20 @@ body {
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #FFE010;
+  color: #0DB9E4;
         font-size: 25px;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #FFAFB2;
+  color: #FAA0A6;
         font-size: 30px;
 }
 .sbtitle {
   line-height: 1.53;
   text-align: center;
-  color: #FCDC5F;
+  color: #BDBDBD;
         font-size: 20px;
 }
 
@@ -200,7 +200,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.gg-box {
+.bp-box {
  position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
    background-color: rgba(255, 102, 102, 0.2);
 }
-.gg-bar {
+.bp-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ body {
   border-radius: 10px;
  background-color: rgba(255, 102, 102, 1);
 }
-.hg-box {
+.ie-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +226,7 @@ body {
   width: 100%;
  background-color: rgba(117, 204, 84, 0.2);
 }
-.hg-bar {
+.ie-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@ body {
   border-radius: 10px;
      background-color: rgba(117, 204, 84, 1);
 }
-.lv-box {
+.it-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ body {
   width: 100%;
  background-color: rgba(255, 166, 166, 0.2);
 }
-.lv-bar {
+.it-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
 background-color: rgba(255, 166, 166, 1);
 }
-.mn-box {
+.iv-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ background-color: rgba(255, 166, 166, 1);
   width: 100%;
 background-color: rgba(4, 146, 255, 0.2);
 }
-.mn-bar {
+.iv-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@ background-color: rgba(4, 146, 255, 0.2);
   border-radius: 10px;
    background-color: rgba(4, 146, 255, 1);
 }
-.sb-box {
+.mm-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +277,7 @@ background-color: rgba(4, 146, 255, 0.2);
   width: 100%;
 background-color: rgba(255, 128, 0, 0.2);
 }
-.sb-bar {
+.mm-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +285,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
  background-color: rgba(255, 128, 0, 1);
 }
-.sg-box {
+.om-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -294,7 +294,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
   background-color: rgba(255, 206, 7, 0.2);
 }
-.sg-bar {
+.om-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -302,7 +302,7 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
     background-color: rgba(255, 206, 7, 1);
 }
-.su-box {
+.rd-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -311,7 +311,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
   background-color: rgba(153, 76, 0, 0.2);
 }
-.su-bar {
+.rd-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,40 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
    background-color: rgba(153, 76, 0, 1);
 }
-.ib-box {
+.sp-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+   background-color: rgba(154, 0, 255, 0.2);
+}
+.sp-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+ background-color: rgba(154, 0, 255, 1);
+}
+.st-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+   background-color: rgba(27, 145, 9, 0.2);
+}
+.st-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+ background-color: rgba(27, 145, 9, 1);
+}.tw-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -328,7 +361,7 @@ background-color: rgba(255, 128, 0, 0.2);
   width: 100%;
    background-color: rgba(204, 153, 255, 0.2);
 }
-.ib-bar {
+.tw-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -336,12 +369,11 @@ background-color: rgba(255, 128, 0, 0.2);
   border-radius: 10px;
  background-color: rgba(204, 153, 255, 1);
 }
-
 .percent-text {
   font-size: 1rem;
   color: #ffffff;
 }
-.us-label {
+.gg-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -355,63 +387,77 @@ background-color: rgba(255, 128, 0, 0.2);
 }
 
 
-.us-explain {
+.gg-explain {
     color: #23231e;
     font-size: 1.5rem;
 }
-.gg-us-title {
+.bp-gg-title {
     color:  #FF6666;
 }
-.gg-us-celeb {
+.bp-gg-celeb {
     color: #FF6666;
     font-size: 1.2rem;
 }
-.hg-us-title {
+.ie-gg-title {
       color: #75CC54;
 }
-.hg-us-celeb {
+.ie-gg-celeb {
     color: #75CC54;
     font-size: 1.2rem;
 }
-.lv-us-title {
+.it-gg-title {
  color: #FFA6A6;
 }
-.lv-us-celeb {
+.it-gg-celeb {
        color: #FFA6A6;
     font-size: 1.2rem;
 }
-.mn-us-title {
+.iv-gg-title {
     color: #0492FF;
 }
-.mn-us-celeb {
+.iv-gg-celeb {
     color: #0492FF;
     font-size: 1.2rem;
 }
-.sb-us-title {
+.mm-gg-title {
    color: #FF9C07;
 }
-.sb-us-celeb {
+.mm-gg-celeb {
   color: #FF9C07;
      font-size: 1.2rem;
 }
-.sg-us-title {
+.om-gg-title {
   color: #FFCE07;
 }
-.sg-us-celeb {
+.om-gg-celeb {
     color: #FFCE07;
     font-size: 1.2rem;
 }
-.su-us-title {
+.rd-gg-title {
    color: #A46A15;
 }
-.su-us-celeb {
+.rd-gg-celeb {
  color: #A46A15;
     font-size: 1.2rem;
 }
-.ib-us-title {
+.sp-gg-title {
+    color: #9A00FF;
+}
+.sp-gg-celeb {
+     color: #9A00FF;
+    font-size: 1.2rem;
+}
+.st-gg-title {
+    color: #1B9109;
+}
+.st-gg-celeb {
+     color: #1B9109;
+    font-size: 1.2rem;
+}
+.tw-gg-title {
     color: #CC99FF;
 }
-.ib-us-celeb {
+.tw-gg-celeb {
      color: #CC99FF;
     font-size: 1.2rem;
 }
