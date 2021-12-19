@@ -74,13 +74,13 @@ body {
     object-fit: contain;
     border-radius: 5px;
     border: dashed 1.5px #ffffff;
-    background-color: #FDDBE3;
+    background-color: #FFE99F;
     
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #FDDBE3;
+    background-color: #FDECB4;
     border: 1.5px dashed #ffffff;
 }
 
