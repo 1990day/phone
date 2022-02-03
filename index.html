@@ -18,19 +18,19 @@
     <meta ht-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>해리포터 기숙사</title>
-    <meta name="description" content="호그와트 기숙사 테스트">
-    <meta name="title" content="나는 어떤 기숙사에 어울릴까?">
-    <meta name="subject" content="해리포터 호그와트 기숙사 테스트">
-    <meta name="keywords" content="얼굴테스트,mbti테스트,해리포터테스트,호그와트테스트,기숙사테스트,슬리데린상,그리핀도르상,래번클로상,후플푸프상,그리핀도르,후플푸프,래번클로,슬리데린,호그와트기숙사">
+    <title>지금 우리 학교는</title>
+    <meta name="description" content="지우학 테스트">
+    <meta name="title" content="나는 어떤 캐릭터와 닮았을까?">
+    <meta name="subject" content="지금 우리 학교는 닮은꼴 테스트">
+    <meta name="keywords" content="얼굴테스트,mbti테스트,지우학테스트,지금우리학교는테스트,지우학,지금우리학교는,남온조,이청산,이나연,윤귀남,온조,청산,수혁,남라">
 
     <meta name="author" content="1990DAY">
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://hogwartsschool.netlify.app/" />
     <meta property="og:url" content="https://hogwartsschool.netlify.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="해리포터 기숙사 테스트" />
-    <meta property="og:description" content="호그와트 기숙사 배정받기"
+    <meta property="og:title" content="지금 우리 학교는 닮은꼴 테스트" />
+    <meta property="og:description" content="지우학 닮은꼴"
     />
  
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -46,7 +46,7 @@
 
 <body>
     <nav class="p-3 container navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"></a>해리포터 기숙사</nav>
+        <a class="navbar-brand"></a>지금 우리 학교는</nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -61,12 +61,12 @@
             </ul>
         </div>
     <section class="section">
-        <h1 class="title">호그와트 기숙사 테스트</h1>
-        <h2 class="subtitle">나에게 어울리는 해리포터 기숙사는?</h2>
-        <h2 class="sr-only">호그와트 기숙사 배정</h2>
-        <h3 class="sr-only">인공지능으로 파악한 호그와트 기숙사 테스트</h3>
+        <h1 class="title">지우학 닮은꼴</h1>
+        <h2 class="subtitle">나와 닮은 지금 우리 학교는 캐릭터 찾기</h2>
+        <h2 class="sr-only">지우학 닮은꼴 테스트</h2>
+        <h3 class="sr-only">인공지능으로 파악한 지금 우리 학교는 닮은꼴 테스트</h3>
         <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
-        <p class="sr-only">얼굴로 보는 해리포터 기숙사</p>
+        <p class="sr-only">얼굴로 보는 지금 우리 학교는 닮은꼴 테스트</p>
     </section>
 
   <div class="img"> 
@@ -101,7 +101,7 @@
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading</span>
                 </div>
-                <p class="text-center">기숙사 배정중...</p>
+                <p class="text-center">닮은꼴 찾는중..</p>
             </div>
                 <p class="result-message"></p>
             <div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -182,8 +182,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
         let URL;
-        const urlMale = "https://teachablemachine.withgoogle.com/models/eeH82iojI/";
-        const urlFemale = "https://teachablemachine.withgoogle.com/models/yKyMooFpw/";
+        const urlMale = "https://teachablemachine.withgoogle.com/models/VWmhU0kO6/";
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/VWmhU0kO6/";
         let model, webcam, labelContainer, maxPredictions;
        async function init() {
             if (document.getElementById("gender").checked) {
@@ -210,25 +210,50 @@
             var resultTitle, resultExplain, resultCeleb;
             if (document.getElementById("gender").checked) {
                 switch (prediction[0].className) {
-                     case "gr":
-                        resultTitle = "그리핀도르"
-                        resultExplain = "당신은 확신의 그리핀도르상!"
-                        resultCeleb = "용감하고 대담한 자를 위한 기숙사 (용기, 대담성, 결단력, 기사도 정신)"
+                     case "cs":
+                        resultTitle = "이청산"
+                        resultExplain = "지금 우리 학교는의 남주인공 이청산과 닮은꼴 입니다."
+                        resultCeleb = "이청산 - 배우 윤찬영"
                         break;
-                    case "hf":
-                        resultTitle = "후플푸프"
-                        resultExplain = "당신은 확신의 후플푸프상!"
-                        resultCeleb = "성실하고 진실된 자들을 위한 기숙사 (헌신, 협동, 인내, 친절, 관용)"
+                    case "gn":
+                        resultTitle = "윤귀남"
+                        resultExplain = "지금 우리 학교는의 메인 빌런 및 최종 보스 윤귀남과 닮은꼴 입니다."
+                        resultCeleb = "윤귀남 - 배우 유인수"
                         break;
-                    case "rb":
-                        resultTitle = "래번클로"
-                        resultExplain = "당신은 확신의 래번클로상!"
-                        resultCeleb = "현명하고 사려 깊은자들을 위한 기숙사 (지혜, 지식, 지능, 창의성, 개성)"
+                    case "hr":
+                        resultTitle = "장하리"
+                        resultExplain = "효산고등학교 양궁부 장하리와 닮은꼴 입니다."
+                        resultCeleb = "장하리 - 배우 하승리"
                         break;
-                    case "sl":
-                        resultTitle = "슬리데린"
-                        resultExplain = "당신은 확신의 슬리데린상!"
-                        resultCeleb = "재간꾼들을 위한 기숙사 (지략, 야망, 교활, 결단력, 긍지, 형제애)"
+                    case "ks":
+                        resultTitle = "한경수"
+                        resultExplain = "지금 우리 학교는 남주인공 청산의 절친 한경수와 닮은꼴 입니다."
+                        resultCeleb = "한경수 - 배우 함성민"
+                            break;
+                     case "mj":
+                        resultTitle = "박미진"
+                        resultExplain = "효산고등학교 3학년 박미진과 닮은꼴 입니다."
+                        resultCeleb = "박미진 - 배우 이은샘"
+                        break;
+                    case "nr":
+                        resultTitle = "최남라"
+                        resultExplain = "효산고등학교 전교 1등 반장 최남라와 닮은꼴 입니다."
+                        resultCeleb = "최남라 - 배우 조이현"
+                        break;
+                    case "ny":
+                        resultTitle = "이나연"
+                        resultExplain = "지금 우리 학교는의 등장인물이자 서브 빌런 이나연과 닮은꼴 입니다."
+                        resultCeleb = "이나연 - 배우 이유미"
+                        break;
+                    case "oj":
+                        resultTitle = "남온조"
+                        resultExplain = "지금 우리 학교는의 여주인공 남온조와 닮은꼴 입니다."
+                        resultCeleb = "남온조 - 배우 박지후"
+                            break;
+                  case "sh":
+                        resultTitle = "이수혁"
+                        resultExplain = "지금 우리 학교는 서브 주인공 이수혁과 닮은꼴 입니다."
+                        resultCeleb = "이수혁 - 배우 로몬"
                             break;
               
                         
@@ -240,25 +265,50 @@
             } else {
                 switch (prediction[0].className) {
 
-                               case "gr":
-                        resultTitle = "그리핀도르"
-                        resultExplain = "당신은 확신의 그리핀도르상!"
-                        resultCeleb = "용감하고 대담한 자를 위한 기숙사 (용기, 대담성, 결단력, 기사도 정신)"
+                       case "cs":
+                        resultTitle = "이청산"
+                        resultExplain = "드라마 지금 우리 학교는의 남주인공 이청산과 닮은꼴 입니다."
+                        resultCeleb = "이청산 - 배우 윤찬영"
                         break;
-                    case "hf":
-                        resultTitle = "후플푸프"
-                        resultExplain = "당신은 확신의 후플푸프상!"
-                        resultCeleb = "성실하고 진실된 자들을 위한 기숙사 (헌신, 협동, 인내, 친절, 관용)"
+                    case "gn":
+                        resultTitle = "윤귀남"
+                        resultExplain = "드라마 지금 우리 학교는의 메인 빌런 및 최종 보스 윤귀남과 닮은꼴 입니다."
+                        resultCeleb = "윤귀남 - 배우 유인수"
                         break;
-                    case "rb":
-                        resultTitle = "래번클로"
-                        resultExplain = "당신은 확신의 래번클로상!"
-                        resultCeleb = "현명하고 사려 깊은자들을 위한 기숙사 (지혜, 지식, 지능, 창의성, 개성)"
+                    case "hr":
+                        resultTitle = "장하리"
+                        resultExplain = "효산고등학교 양궁부 장하리와 닮은꼴 입니다."
+                        resultCeleb = "장하리 - 배우 하승리"
                         break;
-                    case "sl":
-                        resultTitle = "슬리데린"
-                        resultExplain = "당신은 확신의 슬리데린상!"
-                        resultCeleb = "재간꾼들을 위한 기숙사 (지략, 야망, 교활, 결단력, 긍지, 형제애)"
+                    case "ks":
+                        resultTitle = "한경수"
+                        resultExplain = "지금 우리 학교는 남주인공 청산의 절친 한경수와 닮은꼴 입니다."
+                        resultCeleb = "한경수 - 배우 함성민"
+                            break;
+                     case "mj":
+                        resultTitle = "박미진"
+                        resultExplain = "효산고등학교 3학년 박미진과 닮은꼴 입니다."
+                        resultCeleb = "박미진 - 배우 이은샘"
+                        break;
+                    case "nr":
+                        resultTitle = "최남라"
+                        resultExplain = "효산고등학교 전교 1등 반장 최남라와 닮은꼴 입니다."
+                        resultCeleb = "최남라 - 배우 조이현"
+                        break;
+                    case "ny":
+                        resultTitle = "이나연"
+                        resultExplain = "드라마 지금 우리 학교는의 등장인물이자 서브 빌런 이나연과 닮은꼴 입니다."
+                        resultCeleb = "이나연 - 배우 이유미"
+                        break;
+                    case "oj":
+                        resultTitle = "남온조"
+                        resultExplain = "드라마 지금 우리 학교는의 여주인공 남온조와 닮은꼴 입니다."
+                        resultCeleb = "남온조 - 배우 박지후"
+                            break;
+                  case "sh":
+                        resultTitle = "이수혁"
+                        resultExplain = "지금 우리 학교는 서브 주인공 이수혁과 닮은꼴 입니다."
+                        resultCeleb = "이수혁 - 배우 로몬"
                             break;
                     default:
                         resultTitle = "알수없음"
@@ -281,17 +331,32 @@
                 }
                 var labelTitle;
                 switch (prediction[i].className) {
-                    case "gr":
-                        labelTitle = "그리핀도르"
+                    case "cs":
+                        labelTitle = "이청산"
                         break;
-                    case "hf":
-                        labelTitle = "후플푸프"
+                    case "gn":
+                        labelTitle = "윤귀남"
                         break;
-                    case "rb":
-                        labelTitle = "래번클로"
+                    case "hr":
+                        labelTitle = "장하리"
                         break;
-                    case "sl":
-                        labelTitle = "슬리데린"
+                    case "ks":
+                        labelTitle = "한경수"
+                         break;
+       	        case "mj":
+                        labelTitle = "박미진"
+                        break;
+                    case "nr":
+                        labelTitle = "최남라"
+                        break;
+                    case "ny":
+                        labelTitle = "이나연"
+                        break;
+                    case "oj":
+                        labelTitle = "남온조"
+                         break;
+                     case "sh":
+                        labelTitle = "이수혁"
                          break;
                    
                     default:
