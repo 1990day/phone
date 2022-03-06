@@ -200,7 +200,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.cs-box {
+.cm-box {
  position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +209,7 @@ body {
   width: 100%;
   background-color: rgba(255, 182, 182, 0.2);
 }
-.cs-bar {
+.cm-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -217,7 +217,7 @@ body {
   border-radius: 10px;
  background-color: rgba(255, 182, 182, 1);
 }
-.gn-box {
+.eh-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -226,7 +226,7 @@ body {
   width: 100%;
  background-color: rgba(135, 239, 201, 0.2);
 }
-.gn-bar {
+.eh-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,7 +234,7 @@ body {
   border-radius: 10px;
     background-color: rgba(135, 239, 201, 1);
 }
-.hr-box {
+.ej-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ body {
   width: 100%;
  background-color: rgba(171, 89, 226, 0.2);
 }
-.hr-bar {
+.ej-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
 background-color: rgba(171, 89, 226, 1);
 }
-.ks-box {
+.hd-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ background-color: rgba(171, 89, 226, 1);
   width: 100%;
 background-color: rgba(255, 0, 0, 0.2);
 }
-.ks-bar {
+.hd-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@ background-color: rgba(255, 0, 0, 0.2);
   border-radius: 10px;
    background-color: rgba(255, 0, 0, 1);
 }
-.mj-box {
+.jk-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +277,7 @@ background-color: rgba(255, 0, 0, 0.2);
   width: 100%;
 background-color: rgba(250, 216, 42, 0.2);
 }
-.mj-bar {
+.jk-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,24 +285,24 @@ background-color: rgba(250, 216, 42, 0.2);
   border-radius: 10px;
  background-color: rgba(250, 216, 42, 1);
 }
-.nr-box {
+.jw-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(57, 57, 56, 0.2);
+  background-color: rgba(51, 51, 255, 0.2);
 }
-.nr-bar {
+.jw-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-   background-color: rgba(57, 57, 56, 1);
+   background-color: rgba(51, 51, 255, 1);
 }
-.ny-box {
+.sw-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -311,7 +311,7 @@ background-color: rgba(250, 216, 42, 0.2);
   width: 100%;
   background-color: rgba(255, 140, 7, 0.2);
 }
-.ny-bar {
+.sw-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,7 @@ background-color: rgba(250, 216, 42, 0.2);
   border-radius: 10px;
    background-color: rgba(255, 140, 7, 1);
 }
-.oj-box {
+.yr-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -328,7 +328,7 @@ background-color: rgba(250, 216, 42, 0.2);
   width: 100%;
    background-color: rgba(148, 216, 255, 0.2);
 }
-.oj-bar {
+.yr-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -336,23 +336,7 @@ background-color: rgba(250, 216, 42, 0.2);
   border-radius: 10px;
  background-color: rgba(148, 216, 255, 1);
 }
-.sh-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
-}
-.sh-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
-}
+
 
 .percent-text {
   font-size: 1rem;
@@ -376,67 +360,60 @@ background-color: rgba(250, 216, 42, 0.2);
     color: #23231e;
     font-size: 1.5rem;
 }
-.cs-hp-title {
+.cm-hp-title {
     color: #FFB6B6;
 }
-.cs-hp-celeb {
+.cm-hp-celeb {
     color: #FFB6B6;
     font-size: 1.2rem;
 }
-.gn-hp-title {
+.eh-hp-title {
     color: #87EFC9;
 }
-.gn-hp-celeb {
+.eh-hp-celeb {
     color: #87EFC9;
     font-size: 1.2rem;
 }
-.hr-hp-title {
+.ej-hp-title {
     color: #AB59E2;
 }
-.hr-hp-celeb {
+.ej-hp-celeb {
     color: #AB59E2;
     font-size: 1.2rem;
 }
-.ks-hp-title {
+.hd-hp-title {
     color: #ff0000;
 }
-.ks-hp-celeb {
+.hd-hp-celeb {
     color: #ff0000;
     font-size: 1.2rem;
 }
-.mj-hp-title {
+.jk-hp-title {
     color: #FAD82A;
 }
-.mj-hp-celeb {
+.jk-hp-celeb {
     color: #FAD82A;
     font-size: 1.2rem;
 }
-.nr-hp-title {
-    color: #393938;
+.jw-hp-title {
+    color: #3333FF;
 }
-.nr-hp-celeb {
-    color: #393938;
+.jw-hp-celeb {
+    color: #3333FF;
     font-size: 1.2rem;
 }
-.ny-hp-title {
+.sw-hp-title {
     color: #FF8C07;
 }
-.ny-hp-celeb {
+.sw-hp-celeb {
     color: #FF8C07;
     font-size: 1.2rem;
 }
-.oj-hp-title {
+.yr-hp-title {
     color: #94D8FF;
 }
-.oj-hp-celeb {
+.yr-hp-celeb {
     color: #94D8FF;
-    font-size: 1.2rem;
-}
-.sh-hp-title {
-    color: #e56995;
-}
-.sh-hp-celeb {
-    color: #e56995;
     font-size: 1.2rem;
 }
 
