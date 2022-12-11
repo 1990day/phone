@@ -200,159 +200,41 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.shm-box {
+.gl-box {
  position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(255, 102, 102, 0.2);
+  background-color: rgba(1, 130, 205, 0.2);
 }
-.shm-bar {
+.gl-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(255, 102, 102, 1);
+ background-color: rgba(1, 130, 205, 1);
 }
-.lki-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
- background-color: rgba(117, 204, 84, 0.2);
-}
-.lki-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-    background-color: rgba(117, 204, 84, 1);
-}
-.kyk-box {
+.ip-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
- background-color: rgba(255, 102, 153, 0.2);
+ background-color: rgba(95, 97, 95, 0.2);
 }
-.kyk-bar {
+.ip-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-background-color: rgba(255, 102, 153, 1);
+    background-color: rgba(95, 97, 95, 1);
 }
-.ksk-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-background-color: rgba(103, 107, 108, 0.2);
-}
-.ksk-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(103, 107, 108, 1);
-}
-.kmj-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-background-color: rgba(235, 166, 190, 0.2);
-}
-.kmj-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
- background-color: rgba(235, 166, 190, 1);
-}
-.kjs-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(105, 140, 102, 0.2);
-}
-.kjs-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(105, 140, 102, 1);
-}
-.jks-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(204, 204, 204, 0.2);
-}
-.jks-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-   background-color: rgba(204, 204, 204, 1);
-}
-.hhc-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-   background-color: rgba(204, 153, 255, 0.2);
-}
-.hhc-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
- background-color: rgba(204, 153, 255, 1);
-}
-.hej-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-   background-color: rgba(255, 205, 0, 0.2);
-}
-.hej-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(255, 205, 0, 1);
-}
+
 
 .percent-text {
   font-size: 1rem;
@@ -376,67 +258,18 @@ background-color: rgba(235, 166, 190, 0.2);
     color: #23231e;
     font-size: 1.5rem;
 }
-.shm-kk-title {
-    color: #FF6666;
+.gl-kk-title {
+    color: #0182CD;
 }
-.shm-kk-celeb {
-    color: #FF6666;
+.gl-kk-celeb {
+    color: #0182CD;
     font-size: 1.2rem;
 }
-.lki-kk-title {
-    color: #75CC54;
+.ip-kk-title {
+    color: #5F615F;
 }
-.lki-kk-celeb {
-    color: #75CC54;
-    font-size: 1.2rem;
-}
-.kyk-kk-title {
-    color: #FF6699;
-}
-.kyk-kk-celeb {
-    color: #FF6699;
-    font-size: 1.2rem;
-}
-.ksk-kk-title {
-    color: #676B6C;
-}
-.ksk-kk-celeb {
-    color: #676B6C;
-    font-size: 1.2rem;
-}
-.kmj-kk-title {
-    color: #EBA6BE;
-}
-.kmj-kk-celeb {
-    color: #EBA6BE;
-    font-size: 1.2rem;
-}
-.kjs-kk-title {
-    color: #698C66;
-}
-.kjs-kk-celeb {
-    color: #698C66;
-    font-size: 1.2rem;
-}
-.jks-kk-title {
-    color: #CCCCCC;
-}
-.jks-kk-celeb {
-    color: #CCCCCC;
-    font-size: 1.2rem;
-}
-.hhc-kk-title {
-    color: #CC99FF;
-}
-.hhc-kk-celeb {
-    color: #CC99FF;
-    font-size: 1.2rem;
-}
-.hej-kk-title {
-    color: #FFCD00;
-}
-.hej-kk-celeb {
-    color: #FFCD00;
+.ip-kk-celeb {
+    color: #5F615F;
     font-size: 1.2rem;
 }
 
